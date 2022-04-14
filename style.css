@@ -15,8 +15,7 @@ body,head,footer {background-color:#EDFF86;}
     grid-template-columns: 80px auto ; /*columnas con grid*/
     grid-template-rows: 70px; /*filas con grid*/
     justify-content: space-between;
-   
-    
+
 }
 .logo{
     justify-self: end;
