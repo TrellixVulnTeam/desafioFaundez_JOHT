@@ -57,6 +57,11 @@ h1,h2{ text-align: center;
     grid-template-columns: 1fr 2fr ;
     align-items: center;
 }
+@media (whidth: 700px) {
+    .nosotros{
+        grid-template-areas: "introduccion";
+    }
+}
 .fotopricipal{
     grid-area: fotopricipal;
     padding-top: 50px;
