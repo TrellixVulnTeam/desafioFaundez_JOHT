@@ -28,13 +28,12 @@ body, head, footer {
   margin: 0;
   padding: 0;
   text-align: right; }
-
-.menuprincipal li {
-  padding: 1px;
-  margin: 2px;
-  margin-top: 5px;
-  display: inline-block;
-  border: 1px solid black; }
+  .menuprincipal li {
+    padding: 1px;
+    margin: 2px;
+    margin-top: 5px;
+    display: inline-block;
+    border: 1px solid black; }
 
 @media (max-width: 600px) {
   .menuprincipal li {
@@ -86,14 +85,6 @@ h1, h2 {
   grid-area: introduccion; }
 
 .galeriaprincipal {
-  /* display: inline-block;
-    padding-inline-start: 20px;
-    text-align: center;*/
-  /*display: grid;
-    grid-template-columns: repeat(3,1fr) ;
-    grid-template-rows: repeat(2,1fr);
-    /*flex-wrap: wrap;
-    justify-content:center;*/
   display: grid;
   grid-template-areas: "galeriapricipal";
   display: inline-block;
@@ -144,6 +135,30 @@ form, input {
   margin: 1px;
   padding-top: 3px;
   text-align: left; }
+
+/* estilo del fomularios*/
+.formulario {
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid green; }
+
+.formulario .input {
+  width: 90%;
+  height: 18px; }
+
+.formulario .textarea {
+  width: 90%;
+  height: 65px; }
+
+.formulario .button {
+  height: 25px;
+  width: 80px;
+  cursor: pointer; }
 
 /* CSS PARA EL FOOTER*/
 footer {
