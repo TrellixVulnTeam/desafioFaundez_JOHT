@@ -1,5 +1,7 @@
 
-body,head,footer {background-color:#EDFF86;}
+@import "variables","mapas";
+
+body,head,footer {background-color:$colorDeFondo;}
 
 .menu1{
     height: 25px;
@@ -38,20 +40,21 @@ body,head,footer {background-color:#EDFF86;}
 @media (max-width: 600px) { 
     .menuprincipal li {
         display: block;
-    }
-}
-.menuprincipal li a {
+    .menuprincipal li a {
     text-decoration: none; /* esto le saca la decoracion al vinculo*/
     display: block;
     padding: 5px;
-    background-color: #ccff66;
+    background-color: #ccff66;    
+    }
+}
+
 }
 .menuprincipal li a:hover{
     background-color: blueviolet;
     color: aqua;
     transition: .5s ease-in-out;
 }
-h1,h2{ text-align: center;
+h1,h2{ text-align: $centrado;
     margin-top: 50px;
 }
 .nosotros{

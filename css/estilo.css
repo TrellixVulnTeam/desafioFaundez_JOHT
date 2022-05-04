@@ -37,14 +37,13 @@ body, head, footer {
 
 @media (max-width: 600px) {
   .menuprincipal li {
-    display: block; } }
-
-.menuprincipal li a {
-  text-decoration: none;
-  /* esto le saca la decoracion al vinculo*/
-  display: block;
-  padding: 5px;
-  background-color: #ccff66; }
+    display: block; }
+    .menuprincipal li .menuprincipal li a {
+      text-decoration: none;
+      /* esto le saca la decoracion al vinculo*/
+      display: block;
+      padding: 5px;
+      background-color: #ccff66; } }
 
 .menuprincipal li a:hover {
   background-color: blueviolet;
