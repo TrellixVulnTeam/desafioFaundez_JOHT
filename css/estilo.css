@@ -63,7 +63,8 @@ h1, h2 {
 
 @media (max-width: 768px) {
   .nosotros {
-    grid-template-areas: "fotopricipal" "introduccion";
+    grid-template-areas: "fotopricipal"
+ "introduccion";
     grid-template-columns: 1fr; } }
 
 .fotopricipal {
@@ -102,9 +103,9 @@ h1, h2 {
   -webkit-transform: scale(1.1);
   transform: scale(1.2);
   transition: .5s; }
+/* stiky*/
+#redes-sociales { 
 
-#redes-sociales {
-  /*preguntar como hacer sticky esta parte*/
   position: sticky;
   bottom: 30px; }
 
@@ -183,3 +184,7 @@ footer {
 
 .legales p {
   color: blue; }
+.textoCartera {
+  text-align: justify;
+  padding-left: 25px;
+}
